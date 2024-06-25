@@ -1,10 +1,12 @@
 # System.Object
+
 This is the ultimate base class of all .NET classes Every class or struct or type in c# implicitly inherits from `Object` class. Every class inherits for methods from `object` class
+
 - `Equals`
 - `GetHashCode`
 - `ToString`
 - `GetType`
-You Can override three of those you can't override only `GetType` Method it returns the type of your class
+  You Can override three of those you can't override only `GetType` Method it returns the type of your class
 
 ```c#
 class employee
@@ -12,7 +14,7 @@ class employee
 	public int id { get; set; }
 	public string name { get; set; }
 	public int age { get; set; }
-	
+
 	public employee(int id=0, string name="", int age=0)
 	{
 	  this.id = id;
@@ -44,22 +46,24 @@ class employee
 ```c#
 static void Main(string[] args){
 	employee e1 =new employee();
-	//Here it implicitly calls ToString which we override 
+	//Here it implicitly calls ToString which we override
 	Console.WriteLine(e1);
 	employee e2 = new employee(1,"ahmed",22);
 	bool isEqual = e1.Equals(e2);
-	
+
 }
 ```
 
-Here we override the three methods in employee class which were inherited from object class 
+Here we override the three methods in employee class which were inherited from object class
 
-Remember that always your classes inherits from object some times direct like the employee example and sometimes indirect in case your class employee inherits from another class 
+Remember that always your classes inherits from object some times direct like the employee example and sometimes indirect in case your class employee inherits from another class
 `Object =>Person => Employee`
 if your class employee inherits from person the it can't inherit from two classes at the same time but here person class inherits from object so the employee inherits from object but indirect inheritance.
 
 # Boxing And Unboxing
+
 ## Boxing
+
 Boxing is used to store value types in the garbage-collected heap. Boxing is an implicit conversion of a `value type` to the type `object` or to any interface type implemented by this value type. Boxing a value type allocates an object instance on the heap and copies the value into the new object.
 
 ```c#
@@ -67,10 +71,13 @@ int i = 123;
 // Boxing copies the value of i into object o.
 object o = i;
 ```
+
 It is also possible to perform the boxing explicitly but explicit boxing is never required.
 
-## Unboxing 
+## Unboxing
+
 Unboxing is an explicit conversion from the type `object` to a `value type` or from an interface type to a value type that implements the interface. An unboxing operation consists of:
+
 - Checking the object instance to make sure that it is a boxed value of the given value type.
 - Copying the value from the instance into the value-type variable.
 
@@ -83,9 +90,12 @@ int j = (int)o;   // unboxing
 ```
 
 Reference : [Boxing and Unboxing](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)
-___
-# Indexers 
--  Indexers enable objects to be indexed in a similar manner to arrays.
+
+---
+
+# Indexers
+
+- Indexers enable objects to be indexed in a similar manner to arrays.
 - A `get` accessor returns a value. A `set` accessor assigns a value.
 - The `this` keyword is used to define the indexer.
 - The `value` keyword is used to define the value being assigned by the `set` accessor.
@@ -119,7 +129,7 @@ class Student {
 	}
 
 //Defining the indexer to access it like this st["C#"] =25
-//here we set the value of subject named "c#" to be 25 
+//here we set the value of subject named "c#" to be 25
 //and also can get the value like this st["C#"]
 
 public int this[string subjectName]{
@@ -143,6 +153,7 @@ public int this[string subjectName]{
 ```
 
 **Using Indexer in main**
+
 ```C#
  Subject[] subj = new Subject[]
 {
@@ -152,53 +163,67 @@ public int this[string subjectName]{
 	new Subject(3,"mvc",30)
  };
 Student s = new Student(2, "ali ahmed", 22, subj);
- //set value of c# to be 25
+ //set value of c# to be 35
  s["C#"] = 35;
  //get the value of c#
  Console.WriteLine(s["C#"]);
 ```
+
 Reference : [Indexers](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/indexers/)
-___
+
+---
+
 # Exception Handling
+
 ## Checked And Unchecked
+
 The `checked` and `unchecked` statements specify the overflow-checking context for integral-type arithmetic operations and conversions. When integer arithmetic overflow occurs, the overflow-checking context defines what happens. In a checked context, a `System.OverflowException` is thrown. 
 In an unchecked context, the operation result is truncated by discarding any high-order bits that don't fit in the destination type
 
 ```c#
 checked{
 	int x = int.MaxValue;
-	//here checked context throws an overflow exception 
+	//here checked context throws an overflow exception
 	x += 20 ;
 	long y = int.MaxValue;
 	y +=10;
-//here the unchecked does not throw exceptions it turncate the value 
+//here the unchecked does not throw exceptions it turncate the value
 	unchecked{
 	//z = 9
-	int z =(int) y; 
+	int z =(int) y;
 	}
 }
 ```
 
 Reference : [Checked and Unchecked](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/checked-and-unchecked)
-___
+
+---
+
 ## is , as
+
 ### IS
+
 The `is` keyword determines if a conversion from one object type to another is compatible. If the conversion is compatible, it returns true; otherwise, it returns false.
+
 ```c#
 object obj = new student(1, "ali", 22);
 if(obj is student){
 Console.WriteLine("Obj is a Student");
 }
 ```
+
 **Another use for Is**
 Here if the return is true it casts the `obj` into a `student` and assign the value to `st` otherwise `st` is null
+
 ```c#
 object obj = new student(1, "ali", 22);
 if(obj is student st){
 Console.WriteLine("Obj is a Student");
 }
 ```
+
 ### as
+
 The term `as` is used to convert from one type to another. The type can be nullable or reference. The `as` keyword determines whether one object type is compatible with another. If the new object type is compatible, it will return its value; otherwise, null will be returned.
 
 ```c#
@@ -209,9 +234,12 @@ employee em =new employee();
 Console.WriteLine(em);
 ```
 
-___
+---
+
 ## TryParse
-The Parse Method can't handle anything other than numbers so if wrong input is passed to `int.Parse`  method it throws an exception
+
+The Parse Method can't handle anything other than numbers so if wrong input is passed to `int.Parse` method it throws an exception
+
 ```c#
 int x= int.Parse(Console.ReadLine());
 ```
@@ -222,11 +250,16 @@ In `int.TryParse` methods it attempts to convert string to integer if it succeed
 int x;
 bool status=int.TryParse(Console.ReadLine(), out x);
 ```
+
 Here the output of parsing if succeeded is out throw x otherwise it returns false to the status
-___
-## Null Conditional Operator 
+
+---
+
+## Null Conditional Operator
+
 `?.`
 It will return null if the left-hand side expression is evaluated to null instead of throwing an exception (NullReferenceException).  If the left-hand side expression evaluates to a nonnull value then it will be treated as a normal
+
 ```c#
 public static int? getlenght(int[] arr)
 	{
@@ -235,29 +268,37 @@ public static int? getlenght(int[] arr)
 	}
 ```
 
-___
+---
+
 ## Try Catch Finally
+
 ### Try Block
+
 The `try` block encloses the code that may potentially throw an exception. It allows the program to run the enclosed statements and monitors them for errors.
+
 ```c#
-try {  
-// Code that may throw an exception  
+try {
+// Code that may throw an exception
 }
 ```
+
 ### Catch Block
+
 The `catch` block is used to handle the exception thrown by the `try` block. It is executed only if an error occurs in the `try` block.
 
 ```c#
-catch (error) {  
-  // Handle the error  
+catch (error) {
+  // Handle the error
 }
 ```
+
 ### Finally Block
 
 The `finally` block contains code that will be executed regardless of whether an exception is thrown or not. It is typically used for cleaning up resources or executing code that must run no matter what.
+
 ```c#
-finally {  
-// Code to be executed after try and catch, regardless of an exception being thrown or not  
+finally {
+// Code to be executed after try and catch, regardless of an exception being thrown or not
 }
 ```
 
@@ -272,7 +313,7 @@ finally {
 	 {
 	 Console.WriteLine("invalid number ");
 	}catch(DivideByZeroException ex)
-	{ 
+	{
 	Console.WriteLine(ex.Message);
 	}catch(Exception ex)
 	{
@@ -284,16 +325,25 @@ finally {
 	 //release resources
 	 }
 ```
+
 You can put many catch blocks as you want.
-___
+
+---
+
 ## Throw exceptions
+
 we use `throw` keyword to explicitly throw an exception
+
 ```c#
 throw new Exception("Message");
 ```
-___
+
+---
+
 ## User Defined Exception
+
 you can define your own exception by inheriting from `Exception` Class
+
 ```c#
 class InvalidAgeException : Exception
 	{
@@ -302,7 +352,9 @@ class InvalidAgeException : Exception
 	}
 	}
 ```
+
 In Student class you can for example use this user defined exception to restrict invalid input
+
 ```C#
 int age;
 public int Age{
@@ -320,11 +372,14 @@ get{
 }
 ```
 
-___
+---
+
 # Enums
-An _enumeration type_ (or _enum type_) is a value type defined by a set of named constants of the underlying integral numeric type. To define an enumeration type, use the `enum` keyword and specify the names of _enum members_:
+
+An *enumeration type* (or *enum type*) is a value type defined by a set of named constants of the underlying integral numeric type. To define an enumeration type, use the `enum` keyword and specify the names of *enum members*:
 
 Defining an Enumeration
+
 ```c#
 enum gender
 	{
@@ -332,13 +387,16 @@ enum gender
 	female
 	}
 ```
+
 In Main
+
 ```c#
 gender g = gender.male;
 g =gender.female;
 ```
 
 By default, the associated constant values of enum members are of type `int`; they start with zero and increase by one following the definition text order. You can explicitly specify any other integral numeric type as an underlying type of an enumeration type. You can also explicitly specify the associated constant values
+
 ```c#
 enum ErrorCode : ushort
 {
@@ -348,8 +406,11 @@ enum ErrorCode : ushort
     OutlierReading = 200
 }
 ```
+
 ## Bit Flag
+
 If you want an enumeration type to represent a combination of choices, define enum members for those choices such that an individual choice is a bit field. That is, the associated values of those enum members should be the powers of two.
+
 ```c#
 [Flags]
 enum previlage:byte
@@ -366,9 +427,12 @@ enum previlage:byte
 previlage p = (previlage)10;
 Console.WriteLine(p);//here p equlas student, guest
 ```
+
 so if the number specified not in the enum choices the flag attribute tries to combine two or more choices to get the result.
 Reference: [Enums](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum)
-___
+
+---
+
 # Singleton Design Pattern
 
 Singleton design pattern in C# is one of the most popular design patterns. In this pattern, a class has only one instance in the program that provides a global point of access to it. In other words, a singleton is a class that allows only a single instance of itself to be created and usually gives simple access to that instance.
@@ -391,7 +455,7 @@ Singleton design pattern in C# is one of the most popular design patterns. In th
 		if(s ==null)
 		s=new student();
 		return s;
-	}  
+	} 
 public override string ToString()
 	{
 	return $"{id}-{name}-{mygen}";
@@ -406,5 +470,9 @@ student s = student.getstudent();
 student s2 = student.getstudent();
 Console.WriteLine(s.GetHashCode()); Console.WriteLine(s2.GetHashCode());
 ```
+
 Here you will find that both objects has the same hashcode which means that they are the same object.
-___
+
+---
+
+References: [Files](https://learn.microsoft.com/en-us/dotnet/api/system.io.file?view=net-8.0)

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Task1</name>
+    </assembly>
+    <members>
+        <member name="M:Task1.Employee.ToString">
+            <summary>
+            Formats the employees data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Task1.Employee.Sort(Task1.Employee[]@)">
+            <summary>
+            This Method takes a reference to array of employee and sort the array
+            </summary>
+            <param name="employees"></param>
+        </member>
+        <member name="M:Task1.Employee.DisplayEmployees(Task1.Employee[])">
+            <summary>
+            This Method Takes array of Employees and prints them
+            in a good format    
+            </summary>
+            <param name="employees"></param>
+        </member>
+        <member name="M:Task1.HireDate.ToString">
+            <summary>
+            Formats the data of hire date
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Task1.HireDate.op_GreaterThan(Task1.HireDate,Task1.HireDate)">
+            <summary>
+            This method compares two hiredate and returns if the first one is newer than the second
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns>bool if the first hire date is newer than the second returns true otherwise false</returns>
+        </member>
+        <member name="M:Task1.HireDate.op_LessThan(Task1.HireDate,Task1.HireDate)">
+            <summary>
+            This method compares two hiredate and returns if the first one is older than the second
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns>bool if the first hire date is older than the second returns true otherwise false</returns>
+        </member>
+    </members>
+</doc>

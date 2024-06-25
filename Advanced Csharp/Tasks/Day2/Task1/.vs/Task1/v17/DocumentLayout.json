@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI - 2024\\Advanced OOP\\Day2\\Tasks\\Task1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA8B299-C5FA-41A9-BC56-A98F6410E824}|Task1\\Task1.csproj|d:\\iti - 2024\\advanced oop\\day2\\tasks\\task1\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA8B299-C5FA-41A9-BC56-A98F6410E824}|Task1\\Task1.csproj|solutionrelative:task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA8B299-C5FA-41A9-BC56-A98F6410E824}|Task1\\Task1.csproj|d:\\iti - 2024\\advanced oop\\day2\\tasks\\task1\\task1\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA8B299-C5FA-41A9-BC56-A98F6410E824}|Task1\\Task1.csproj|solutionrelative:task1\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA8B299-C5FA-41A9-BC56-A98F6410E824}|Task1\\Task1.csproj|d:\\iti - 2024\\advanced oop\\day2\\tasks\\task1\\task1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA8B299-C5FA-41A9-BC56-A98F6410E824}|Task1\\Task1.csproj|solutionrelative:task1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA8B299-C5FA-41A9-BC56-A98F6410E824}|Task1\\Task1.csproj|d:\\iti - 2024\\advanced oop\\day2\\tasks\\task1\\task1\\securityprivilage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA8B299-C5FA-41A9-BC56-A98F6410E824}|Task1\\Task1.csproj|solutionrelative:task1\\securityprivilage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA8B299-C5FA-41A9-BC56-A98F6410E824}|Task1\\Task1.csproj|d:\\iti - 2024\\advanced oop\\day2\\tasks\\task1\\task1\\hiredate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA8B299-C5FA-41A9-BC56-A98F6410E824}|Task1\\Task1.csproj|solutionrelative:task1\\hiredate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HireDate.cs",
+              "DocumentMoniker": "D:\\ITI - 2024\\Advanced OOP\\Day2\\Tasks\\Task1\\Task1\\HireDate.cs",
+              "RelativeDocumentMoniker": "Task1\\HireDate.cs",
+              "ToolTip": "D:\\ITI - 2024\\Advanced OOP\\Day2\\Tasks\\Task1\\Task1\\HireDate.cs",
+              "RelativeToolTip": "Task1\\HireDate.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAACsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T07:22:53.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SecurityPrivilage.cs",
+              "DocumentMoniker": "D:\\ITI - 2024\\Advanced OOP\\Day2\\Tasks\\Task1\\Task1\\SecurityPrivilage.cs",
+              "RelativeDocumentMoniker": "Task1\\SecurityPrivilage.cs",
+              "ToolTip": "D:\\ITI - 2024\\Advanced OOP\\Day2\\Tasks\\Task1\\Task1\\SecurityPrivilage.cs",
+              "RelativeToolTip": "Task1\\SecurityPrivilage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:08:12.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "D:\\ITI - 2024\\Advanced OOP\\Day2\\Tasks\\Task1\\Task1\\Gender.cs",
+              "RelativeDocumentMoniker": "Task1\\Gender.cs",
+              "ToolTip": "D:\\ITI - 2024\\Advanced OOP\\Day2\\Tasks\\Task1\\Task1\\Gender.cs",
+              "RelativeToolTip": "Task1\\Gender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:04:04.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\ITI - 2024\\Advanced OOP\\Day2\\Tasks\\Task1\\Task1\\Employee.cs",
+              "RelativeDocumentMoniker": "Task1\\Employee.cs",
+              "ToolTip": "D:\\ITI - 2024\\Advanced OOP\\Day2\\Tasks\\Task1\\Task1\\Employee.cs",
+              "RelativeToolTip": "Task1\\Employee.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:03:02.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI - 2024\\Advanced OOP\\Day2\\Tasks\\Task1\\Task1\\Program.cs",
+              "RelativeDocumentMoniker": "Task1\\Program.cs",
+              "ToolTip": "D:\\ITI - 2024\\Advanced OOP\\Day2\\Tasks\\Task1\\Task1\\Program.cs",
+              "RelativeToolTip": "Task1\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAwwBMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:01:25.141Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
