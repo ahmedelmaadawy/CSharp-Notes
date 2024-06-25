@@ -1,0 +1,14 @@
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\bin\Debug\net8.0\Day2 - bonus 2.exe
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\bin\Debug\net8.0\Day2 - bonus 2.deps.json
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\bin\Debug\net8.0\Day2 - bonus 2.runtimeconfig.json
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\bin\Debug\net8.0\Day2 - bonus 2.dll
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\bin\Debug\net8.0\Day2 - bonus 2.pdb
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\obj\Debug\net8.0\Day2 - bonus 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\obj\Debug\net8.0\Day2 - bonus 2.AssemblyInfoInputs.cache
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\obj\Debug\net8.0\Day2 - bonus 2.AssemblyInfo.cs
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\obj\Debug\net8.0\Day2 - bonus 2.csproj.CoreCompileInputs.cache
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\obj\Debug\net8.0\Day2 - bonus 2.dll
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\obj\Debug\net8.0\refint\Day2 - bonus 2.dll
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\obj\Debug\net8.0\Day2 - bonus 2.pdb
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\obj\Debug\net8.0\Day2 - bonus 2.genruntimeconfig.cache
+D:\ITI - 2024\OOP\Day 2\Tasks\Day2 - Task1\Day2 - bonus 2\obj\Debug\net8.0\ref\Day2 - bonus 2.dll

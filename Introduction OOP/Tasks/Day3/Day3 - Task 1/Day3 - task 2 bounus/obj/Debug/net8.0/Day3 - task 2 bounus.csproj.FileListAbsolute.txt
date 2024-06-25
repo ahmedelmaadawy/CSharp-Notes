@@ -1,0 +1,14 @@
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\bin\Debug\net8.0\Day3 - task 2 bounus.exe
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\bin\Debug\net8.0\Day3 - task 2 bounus.deps.json
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\bin\Debug\net8.0\Day3 - task 2 bounus.runtimeconfig.json
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\bin\Debug\net8.0\Day3 - task 2 bounus.dll
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\bin\Debug\net8.0\Day3 - task 2 bounus.pdb
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\obj\Debug\net8.0\Day3 - task 2 bounus.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\obj\Debug\net8.0\Day3 - task 2 bounus.AssemblyInfoInputs.cache
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\obj\Debug\net8.0\Day3 - task 2 bounus.AssemblyInfo.cs
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\obj\Debug\net8.0\Day3 - task 2 bounus.csproj.CoreCompileInputs.cache
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\obj\Debug\net8.0\Day3 - task 2 bounus.dll
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\obj\Debug\net8.0\refint\Day3 - task 2 bounus.dll
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\obj\Debug\net8.0\Day3 - task 2 bounus.pdb
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\obj\Debug\net8.0\Day3 - task 2 bounus.genruntimeconfig.cache
+D:\ITI - 2024\OOP\Day3\Tasks\Day3 - Task 1\Day3 - task 2 bounus\obj\Debug\net8.0\ref\Day3 - task 2 bounus.dll

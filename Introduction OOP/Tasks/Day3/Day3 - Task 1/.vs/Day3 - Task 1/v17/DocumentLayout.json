@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI - 2024\\OOP\\Day3\\Tasks\\Day3 - Task 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21B899-A781-4CF3-8D5D-9D89233A9DAF}|Day3 - task 2 bounus\\Day3 - task 2 bounus.csproj|d:\\iti - 2024\\oop\\day3\\tasks\\day3 - task 1\\day3 - task 2 bounus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21B899-A781-4CF3-8D5D-9D89233A9DAF}|Day3 - task 2 bounus\\Day3 - task 2 bounus.csproj|solutionrelative:day3 - task 2 bounus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{556E87E6-3122-4A8E-8FD4-9550FB611D0E}|Day 3 - Task 3\\Day 3 - Task 3.csproj|d:\\iti - 2024\\oop\\day3\\tasks\\day3 - task 1\\day 3 - task 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{556E87E6-3122-4A8E-8FD4-9550FB611D0E}|Day 3 - Task 3\\Day 3 - Task 3.csproj|solutionrelative:day 3 - task 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A899E5-7459-402F-85BE-65D28C3D3162}|Day3 - Task 2\\Day3 - Task 2.csproj|d:\\iti - 2024\\oop\\day3\\tasks\\day3 - task 1\\day3 - task 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A899E5-7459-402F-85BE-65D28C3D3162}|Day3 - Task 2\\Day3 - Task 2.csproj|solutionrelative:day3 - task 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF4B8EE-190F-4754-981F-C2E6F61271E2}|Day3 - Task 1\\Day3 - Task 1.csproj|d:\\iti - 2024\\oop\\day3\\tasks\\day3 - task 1\\day3 - task 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF4B8EE-190F-4754-981F-C2E6F61271E2}|Day3 - Task 1\\Day3 - Task 1.csproj|solutionrelative:day3 - task 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI - 2024\\OOP\\Day3\\Tasks\\Day3 - Task 1\\Day 3 - Task 3\\Program.cs",
+              "RelativeDocumentMoniker": "Day 3 - Task 3\\Program.cs",
+              "ToolTip": "D:\\ITI - 2024\\OOP\\Day3\\Tasks\\Day3 - Task 1\\Day 3 - Task 3\\Program.cs",
+              "RelativeToolTip": "Day 3 - Task 3\\Program.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAUwAIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T11:06:28.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI - 2024\\OOP\\Day3\\Tasks\\Day3 - Task 1\\Day3 - task 2 bounus\\Program.cs",
+              "RelativeDocumentMoniker": "Day3 - task 2 bounus\\Program.cs",
+              "ToolTip": "D:\\ITI - 2024\\OOP\\Day3\\Tasks\\Day3 - Task 1\\Day3 - task 2 bounus\\Program.cs",
+              "RelativeToolTip": "Day3 - task 2 bounus\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T10:44:00.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI - 2024\\OOP\\Day3\\Tasks\\Day3 - Task 1\\Day3 - Task 2\\Program.cs",
+              "RelativeDocumentMoniker": "Day3 - Task 2\\Program.cs",
+              "ToolTip": "D:\\ITI - 2024\\OOP\\Day3\\Tasks\\Day3 - Task 1\\Day3 - Task 2\\Program.cs",
+              "RelativeToolTip": "Day3 - Task 2\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T10:26:16.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI - 2024\\OOP\\Day3\\Tasks\\Day3 - Task 1\\Day3 - Task 1\\Program.cs",
+              "RelativeDocumentMoniker": "Day3 - Task 1\\Program.cs",
+              "ToolTip": "D:\\ITI - 2024\\OOP\\Day3\\Tasks\\Day3 - Task 1\\Day3 - Task 1\\Program.cs",
+              "RelativeToolTip": "Day3 - Task 1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T10:20:36.881Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

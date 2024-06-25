@@ -1,0 +1,14 @@
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\bin\Debug\net8.0\Day5 - Task 1.exe
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\bin\Debug\net8.0\Day5 - Task 1.deps.json
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\bin\Debug\net8.0\Day5 - Task 1.runtimeconfig.json
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\bin\Debug\net8.0\Day5 - Task 1.dll
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\bin\Debug\net8.0\Day5 - Task 1.pdb
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\obj\Debug\net8.0\Day5 - Task 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\obj\Debug\net8.0\Day5 - Task 1.AssemblyInfoInputs.cache
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\obj\Debug\net8.0\Day5 - Task 1.AssemblyInfo.cs
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\obj\Debug\net8.0\Day5 - Task 1.csproj.CoreCompileInputs.cache
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\obj\Debug\net8.0\Day5 - Task 1.dll
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\obj\Debug\net8.0\refint\Day5 - Task 1.dll
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\obj\Debug\net8.0\Day5 - Task 1.pdb
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\obj\Debug\net8.0\Day5 - Task 1.genruntimeconfig.cache
+D:\ITI - 2024\OOP\Day5\Tasks\Day5 - Task 1\Day5 - Task 1\obj\Debug\net8.0\ref\Day5 - Task 1.dll
