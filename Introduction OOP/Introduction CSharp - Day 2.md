@@ -190,21 +190,21 @@ for(int i = 0; i<5 ;i++){
 ___
 # Operators
 ### Binary Operators
-`Var result =firstOperand Operator secondOperand`
-`var result  = x + y`
-`var result = x* y`
+`Var result =firstOperand Operator secondOperand`<br>
+`var result  = x + y`<br>
+`var result = x* y`<br>
 ### Unary Operator
-`var result = operator onlyOperand`
-`var ressult = onlyOperand operator`
-`x++;`
-`++x;`
+`var result = operator onlyOperand`<br>
+`var ressult = onlyOperand operator`<br>
+`x++;`<br>
+`++x;`<br>
 ### Ternary Operators
-`var result = boolean_exp ? value_ifTrue : value_ifFales`
-`string result = x>3 ? "Greater than ":"less than or equal"`
+`var result = boolean_exp ? value_ifTrue : value_ifFales`<br>
+`string result = x>3 ? "Greater than ":"less than or equal"`<br>
 ### Logical Operator
-`|` ==> OR
-`&` ==> AND
-`^` ==> XOR
+`|` ==> OR<br>
+`&` ==> AND<br>
+`^` ==> XOR<br>
 ___
 # Arrays
 Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
